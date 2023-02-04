@@ -1,0 +1,344 @@
+/*
+ Theme Name:     Boom Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Boom Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       boom-starter
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+form#gform_1 label.gfield_label{
+	color: #fff!important;
+	font-size: 16px!important;
+    font-weight: 400!important;
+    margin-bottom: 2px!important;
+}
+.gform_footer input#gform_submit_button_1{
+	padding: 14px!important;
+    border-radius: 0px !important;
+    background: #29406c!important;
+    border: 1px solid #29406c!important;
+    font-family: FuturaPT!important;
+    letter-spacing: 2px!important;
+    font-weight: 400!important;
+	width: 200px !important;
+	font-size: 16px!important;
+	color: #fff!important;
+	transition: 0.3s all ease;
+	line-height: 20px!important;
+}
+form#gform_1 .gfield{
+	margin-bottom: -5px!important;
+}
+.gform_footer input#gform_submit_button_1:hover{
+	background-color: #3f609e!important;
+}
+form#gform_1 .gform_footer{
+	padding: 6px 0px!important;
+	margin-top: 10px!important;
+}
+form#gform_1 #field_1_7 .gfield_required, form#gform_1 #field_1_5 .gfield_required, form#gform_1 #field_1_6 .gfield_required{
+	display: none!important;
+}
+.gform_wrapper .gfield_required{
+	color: #fff!important;
+	font-size: 15px!important;
+}
+#gform_confirmation_message_1{color: #fff!important;}
+
+.vdo-otr a{
+	position: relative;
+}
+.vdo-otr a .play_button{
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	background-color: #62463B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vdo-otr a .play_button img{
+	height: 25px;
+	width: 25px;
+	margin-left: 5px!important;
+}
+
+ul.sub-menu {
+    display: none;
+    position: absolute;
+    background: #263e6a;
+    width: max-content;
+    z-index: 99999;
+    border-top: 2px solid #fff;
+    padding: 15px 10px 7px 10px;
+}
+.menu-item:hover .sub-menu {
+    display: block;
+}
+.sub-menu li{
+	display: block;
+    margin-bottom: 15px;
+}
+.menu-item-has-children {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px)  {
+   .menu-item-has-children>.nav-link:after {
+	    background-image: url(/wp-content/uploads/2023/01/white-drop-down-arrow.png);
+	    position: absolute;
+	    right: 0px;
+	    width: 0px;
+	    top: 6px;
+	    background-repeat: no-repeat;
+	    /* font-size: 2px; */
+	    height: 5px;
+	    background-size: 13px 9px;
+	    display: inline-block;
+	    width: 33px;
+	    height: 50px;
+	    content: "" ;
+   }
+   .header--menu--list li a::before{
+   	 background:none !important;
+   }
+   ul#menu-header {
+	    text-align: left;
+	    align-items: flex-start !important;
+	}
+	.sub-menu li {
+	    padding-left: 15px !important;
+	    border-bottom: none !important;
+	}
+	ul.sub-menu {
+	    position: unset;
+	    background: #000000;
+	    border-top: none;
+	    padding: 15px 0 0;
+	}
+	li.menu-item.menu-item-type-custom.nav-item {
+	    border-bottom: 1px solid #ffffff73;
+	    width: 100%;
+	    padding-bottom: 10px !important;
+	    margin-bottom: 10px !important;
+	}
+	li.menu-item.menu-item-type-custom.nav-item:last-child {
+	    margin: 0 !important;
+	}
+}
+.main--sub--txt {display: none;}
+
+
+
+.bdp_blog_template.news {
+    background-color: #fff  !important;
+    border-radius: 4px;
+        border: 1px solid #e2e2e2;
+transition: 0.6s all;
+    box-shadow: 0px 0px 0px 1px #ddd;
+}
+
+
+@media (max-width:990px) {
+    .bdp_blog_template.news .bd-post-image img {
+        width: 100%;
+        min-height: 250px ;
+        height: 250px !important;
+    }
+}
+  .bdp_blog_template.news .bd-post-image img {
+        height: 250px ;
+    }
+
+.bdp_blog_template i {
+    color: #111;
+}
+
+.sticky {
+      position: fixed;
+      top: 0;
+   }
+
+.stick--area{
+    z-index:99;
+}
+
+.container-fluid.d-flex.justify-content-end.top--txt.mb-3.bg--black.stick--areadesktop {
+    display: none !important;
+
+}
+
+.container-fluid.d-flex.justify-content-end.top--txt.mb-3.bg--black.stick--areadesktop.sticky {
+    display: block !important;
+    transition:0.5s all;
+}
+
+.stick--areadesktop  .top--list li a {
+    color: #fff;
+    font-size: 17px;
+}
+.stick--areadesktop > .top--list {
+    padding: 11px 0 !important;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto !important;
+}
+
+.blog_template.bdp_blog_template.news:hover {
+    background: #fff !important;
+    border: 1px solid #e2e2e2;
+    box-shadow: none;
+    cursor: pointer;
+
+}
+.stick--areadesktop > .top--list .ml-4 {
+    margin:0 !important;
+}
+
+
+
+@media (min-width:990px){
+    .side--sticky {
+    position: sticky;
+    top: 40px;
+}
+}
+
+
+.ib_banner .bnr-txt {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    transform: translate(0, 88%);
+}
+.ib_banner .bnr-txt h1 {
+    background-color: #29406c;
+    display: inline-block;
+    padding: 20px 40px 11px 40px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    clip-path: polygon(3% 0, 100% 0, 97% 100%, 0% 100%);
+    font-family: ff-monteral-two;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    margin: 0;
+}
+@media (max-width:600px) {
+.page-id-700 #page  .ib_banner .bnr-txt h1 {
+        font-size: 18px !important;
+}
+    .banner .bnr-txt h1 {
+        font-size: 20px;
+        padding: 15px 20px 11px 20px;
+    }
+
+.page-id-185 #page .banner .bnr-txt {
+    transform: translate(0, 87%);
+}
+.page-id-315 #page .banner .bnr-txt {
+    transform: translate(0, 87%);
+}
+.page-id-321 #page .banner .bnr-txt {
+    transform: translate(0, 87%);
+}
+
+
+
+}
+@media (max-width: 981px)
+    {
+.ib_banner .bnr-txt {
+    bottom: 16px;
+}
+}
+
+
+/* Blog - Read More*/
+
+.bd-more-tag {
+    background-color: #29406c!important;
+    color: #fff!important;
+    border-radius: 0px;
+}
+
+.bdp_blog_template a.bd-more-tag:hover {
+    background-color: #3f609e!important;
+    color: #fff!important;
+}
+
+span.current {
+    background-color: #29406c !important;
+    color: #29406c;
+    font-size: 14px;
+}
+
+a.page-numbers:hover {
+    background-color: #29406c !Important;
+}
+
+
+/* Banner Style Start  28-01-23  */
+
+.banner_ib_style {
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.page-id-619  #page main .ib_banner .bnr-txt {
+    transform:translate(0, 86%) ;
+}
+
+.page-id-700  #page main .ib_banner .bnr-txt {
+    transform:translate(0, 86%) ;
+}
+
+
+
+.page-id-633 #page main  .banner_ib_style {
+        background-position: bottom;
+    
+}
+
+
+.ib_banner .bnr-txt {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    transform: translate(0, 92.3%);
+}
+
+
+
+
+@media (max-width: 575px){
+.subpage_image_left .image_left_square1 {
+    min-height: 430px  !important;
+}
+}
